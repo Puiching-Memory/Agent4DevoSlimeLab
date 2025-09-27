@@ -1,0 +1,36 @@
+path: .  # 数据集根目录
+train: ./labels  # 训练图像目录
+val: ./labels    # 验证图像目录
+
+# 类别数量
+nc: 27
+
+# 类别名称（根据实际情况修改）
+names:
+  0: slime
+  1: sign up
+  2: sign right
+  3: switch off
+  4: switch on
+  5: lift
+  6: brick
+  7: goblin
+  8: spike
+  9: ammo1
+  10: ammo2
+  11: ammo3
+  12: ammo4
+  13: ammo box
+  14: ammo atom
+  15: ammo bomb
+  16: save point
+  17: beaker
+  18: beaker0
+  19: beaker1
+  20: beaker2
+  21: beaker3
+  22: hp3
+  23: hp2
+  24: hp1
+  25: ending
+  26: cycle block

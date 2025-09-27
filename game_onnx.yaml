@@ -1,0 +1,35 @@
+type: yolo11
+name: yolo11m-r20240930
+provider: sail2dream
+display_name: yolov11-game-loop2
+model_path: .\runs\slime_yolo\loop2\weights\best.onnx
+iou_threshold: 0.45
+conf_threshold: 0.25
+classes:
+  - slime
+  - sign up
+  - sign right
+  - switch off
+  - switch on
+  - lift
+  - brick
+  - goblin
+  - spike
+  - ammo1
+  - ammo2
+  - ammo3
+  - ammo4
+  - ammo box
+  - ammo atom
+  - ammo bomb
+  - save point
+  - beaker
+  - beaker0
+  - beaker1
+  - beaker2
+  - beaker3
+  - hp3
+  - hp2
+  - hp1
+  - ending
+  - cycle block

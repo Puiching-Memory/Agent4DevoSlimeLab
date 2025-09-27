@@ -1,0 +1,15 @@
+stable-baselines3[extra]
+mss
+pynput
+gymnasium
+pywin32
+PyWinCtl
+opencv-python
+PyYAML
+polars
+scipy
+requests
+onnx
+onnxslim
+onnxruntime
+moviepy

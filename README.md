@@ -1,17 +1,32 @@
 # Agent4DevoSlimeLab
 
-```bash
+```powershell
 conda create -n slime python=3.13
 conda activate slime
-pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu129
-pip install -r requirements.txt
-pip install ultralytics --no-deps
-pip install -U "triton-windows<3.5"
+conda install open-world-agents::gstreamer-bundle
+pip install owa
+pip install virtual-uv uv
 ```
 
-```pwsh
-# 写入临时环境变量
-$env:DASHSCOPE_API_KEY = "your_api_key_here"
+## Getting Started
+
+```bash
+conda activate slime
+ocap DevoSlime.mcap --window-name DevoSlime --no-record-audio --fps 30
+ocap DevoSlime.mcap
 ```
 
-## 训练
+```bash
+owl mcap info ./DevoSlime.mcap
+```
+
+```bash
+cd open-world-agents/projects/owa-mcap-viewer
+$env:EXPORT_PATH = "C:/workspace/github/Agent4DevoSlimeLab/mcap"
+vuv install
+uvicorn owa_viewer:app --host 0.0.0.0 --port 7860 --reload
+```
+
+``bash
+python 
+```

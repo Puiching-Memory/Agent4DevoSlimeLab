@@ -4,3 +4,7 @@ labels/
 raw_data*/
 *.pt
 *.cache
+*.mkv
+*.mcap
+mcap_server/
+lerobot_dataset/

@@ -1,0 +1,6 @@
+[submodule "open-world-agents"]
+	path = open-world-agents
+	url = https://github.com/open-world-agents/open-world-agents.git
+[submodule "lerobot"]
+	path = lerobot
+	url = https://github.com/huggingface/lerobot.git
